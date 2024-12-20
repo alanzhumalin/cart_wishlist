@@ -7,7 +7,6 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-100">
-       
         <Routes>
           <Route path="/cart" element={<Cart />} />
           <Route path="/wishlist" element={<Wishlist />} />
